@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    </head>
+    <title>Document</title>
+<link rel="stylesheet"  href="styles/index.css">
+</head>
+<body>
+    <div id="container">
+    
+        <div id="nav">
+            <div id="logo"><img src="https://static.naukri.com/s/4/100/i/naukri_Logo.png" style="width: 100%;height: 100%;"></div>
+            <div class="job nav_c" style="width: 60px;">
+                <div class="nav_link"><p class="job_sec">JOBS</p>
+                <div class="dropdown-content" style="width: 350px;">
+                    <div class="dropdown-content_list" id="dropdown-content_joblist1" >
+                    <ul class="list">
+                        <li>Search Jobs</li>
+                        <li>Advanced Search</li>
+                        <li> Create Free Job Alert</li>
+                        <li> Register Now</li>
+                    </ul>
+                </div>
+                <div class="dropdown-content_list" id="dropdown-content_joblist2">
+                    <ul class="list">
+                        <li>Jobs by location</li>
+                        <li>Jobs by skill</li>
+                        <li>Jobs by Company</li>
+                        <li>Jobs by Category</li>
+                    </ul>
+                </div>
+                </div>
+                </div>
+            </div>
+            <div class="res nav_c">
+                 <div><p class="job_sec" style="margin-right: 10px;">Recruiters</p>
+                <div class="dropdown-content" style="width: 250px;">
+                    <div class="dropdown-content_list" id="dropdown-content_reclist1" >
+                <ul class="list">
+                    <li>Browse All Recruiters</li>
+                    <li>Recruiter Connection</li>
+                    <li> Go to NaukriRecruiter</li>
+                </ul>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="comp nav_c">
+                <div><p class="job_sec">COMPINIES</p>
+                <div class="dropdown-content" style="width: 250px;">
+                    <div class="dropdown-content_list" id="dropdown-content_complist1" >
+                <ul class="list">
+                    <li>Browse All Company</li>
+                    <li> About Companies</li>
+                    <li>Interview Questions</li>
+                    <li> Write Company Review</li>
+                    <li> Company Reviews</li>
+                </ul>
+                </div>
+                </div>
+            </div>
+            </div>
+        
+            <div class="tools nav_c">
+                <div><p class="job_sec">TOOLS</p>
+                <div class="dropdown-content" style="width: 250px;">
+                    <div class="dropdown-content_list" id="dropdown-content_toolslist1" >
+                <ul class="list">
+                    <li>Career Dashboard</li>
+                    <li>Your next career move</li>
+                    <li>Skills Trends</li>
+                    <li> Naukri Lab</li>
+                </ul>
+                </div>
+            </div>
+            </div>
+            </div>
+            <div class="serv nav_c">
+                <div><p class="job_sec">SERVICES</p>
+                <div class="dropdown-content" style="width: 550px; height: 250px;">
+                    <div class="dropdown-content_list" id="dropdown-content_servlist1" >
+                <ul class="list">
+                    <p>Resume Writing</p>
+                    <li>Text Resume</li>
+                    <li> Visual Resume</li>
+                    <p>Jobs For You</p>
+                    <li>  Jobs4U</li>
+                </ul>
+            </div>
+            <div class="dropdown-content_list" id="dropdown-content_servlist2">
+
+                <ul class="list">
+                    <p>Recruiter Reach</p>
+                    <li>Resume Display</li>
+                    <li>Priority Applicant</li>
+                    <li> Resume Quality Score - Free</li>
+                   
+                    <p>Other</p>
+                    <li> Help / FAQ</li>
+                   
+                </ul>
+            </div>
+            <div class="dropdown-content_list" id="dropdown-content_servlist3">
+
+                <ul class="list">
+                    <p>Courses / Certifications</p>
+                    <li>Data Science</li>
+                    <li>Machine Learning</li>
+                   
+                    <p>Programming</p>
+                    <li>Business Analytics</li>
+                </ul>
+            </div>
+                </div>
+            </div>
+            </div>
+            <div class="more nav_c">
+                <div><p class="job_sec">MORE</p>
+                <div class="dropdown-content" style="width: 440px; height: 250px;">
+                    <div class="dropdown-content_list" id="dropdown-content_morelist1">
+                <ul class="list">
+                    <p>Career Tools</p>
+                    <li>Naukri Blog</li>
+                    <li>FAQ</li>
+                    <li>Take Home Calculator</li>
+                    <p>Study Abroad</p>
+                   
+                </ul>
+                </div>
+            <div class="dropdown-content_list" id="dropdown-content_morelist2">
+                <ul class="list">
+                    <p>Top Courses & Colleges</p>
+                    <li> MBA</li>
+                    <li> MBA Colleges in India</li>
+                    <li> Top MBA Colleges</li>
+                    <li> Engineering</li>
+                  
+                  
+                    
+                </ul>
+                </div>
+            <div class="dropdown-content_list" id="dropdown-content_morelist3">
+                <ul class="list">
+                    <p>Top Exams</p>
+                    <li> JEE Main</li>
+                    <li> JEE Advanced</li>
+                    <li> BCECE</li>
+                    <li> GATE</li>
+                  
+                  
+                    
+                </ul>
+            </div>
+                </div>
+            </div>
+            </div>
+            <div class="log nav_c" >
+                <div><p onclick="login()" class="job_sec">LOGIN</p>
+                <div style="width: 130px; height: 40px; text-align: center;" class="dropdown-content" id="dropdown-content_loglist1">
+                 Jobseekers login
+                </div>
+            </div>
+            </div>
+            <div class="employee nav_c" style="width: 180px;">
+                <i class='far fa-bell' style='font-size:28px;color: #fff;'></i>
+            <div id="employer" style="width: 140px;"><p class="job_sec">FOR EMPLOYERS</p></div>
+            </div>
+        </div>
+        <div class="search_bar">
+        <div class="input_search_bar">
+            <h3 id="input_head">Find a job at India's no.1 job site</h3>
+            <div id="input_field">
+                <input id="search_compiny" placeholder="skills delegation compiny">
+                <input id="search_by_loc" placeholder="enter location">
+                <button id="search_btn">Search</button>
+            </div>
+        </div>
+        <div class="reg_cv_bar">
+            <p class="reg_cv_bar_cont heading">Get Personalised Jobs !!</p>
+            <p class="reg_cv_bar_cont">Tell us what kind of a job you are looking out for and stay updated with latest opportunities.</p>
+            <div class="btn_class">
+            <button id="reg_btn" onclick="registration()">Register for free</button>
+            <button id="cv_btn" >Upload CV</button>
+            </div>
+        </div>
+        </div>
+        <div class="content_container">
+            <div class="left_content_div">
+                <div class="hiring_compiny_img">
+                    <div class="img_div"><img src="https://company.naukri.com/homepage21/cognizant-hs-tp-21sep2018.gif"></div>
+                    <div class="img_div"><img src="https://company.naukri.com/homepage21/fis-rs-tp-11may2021.gif"></div>
+                    <div class="img_div" onclick="genpact_homepg()"><img src="	https://company.naukri.com/homepage21/genpact-vk-tp-2feb2021.gif"></div>
+                    <div class="img_div"><img src="https://company.naukri.com/homepage21/synechron-ns-tp-15jan2020.gif"></div>
+                    <div class="img_div"><img src="https://company.naukri.com/homepage21/fis-rs-tp-11may2021.gif"></div>
+                    <div class="img_div"><img src="	https://company.naukri.com/homepage21/covance-cl-tp-24jun2021.gif"></div>
+                </div>
+            
+                <div class="middle_content">
+                    <div id="middle_content_left">
+                    <div class="hiring_compiny_img2">
+                        
+                   <div style="width: 140px; height:30px;margin-bottom: 5px;"><p style="margin-left: 5px; font-size: 20px;">Top Employers</p></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/virtusa-ns-tp-29nov2019.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/jio-ak-tp-24aug2021.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/tech-ak-tp-29oct2021.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/lti-ak-tp-24mar2020.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/Incedo-vk-tp-6mar2021.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/xoriant-rs-tp-25oct2021.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/accolite-rs-tp-12jul2021.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/oracle-ns-tp-24june2020.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/amat-cl-tp-20june2020.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/opentext-tp-27aug2021.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/airtel-cl-tp-11mar2021.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/technosoft-vs-tp-19nov2020.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/mouser-vk-tp-6sep2021.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/byjus-ak-tp-16sep2021.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/amat-cl-tp-20june2020.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/opentext-tp-27aug2021.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/airtel-cl-tp-11mar2021.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/technosoft-vs-tp-19nov2020.gif"></div>
+                    <div class="img_div2"><img src="	https://company.naukri.com/homepage21/mouser-vk-tp-6sep2021.gif"></div>
+                    <div class="img_div2"><img src="https://company.naukri.com/homepage21/byjus-ak-tp-16sep2021.gif"></div>
+                     
+                </div>
+    
+                    <div  id="compiny_logo"><img src="https://www.naukri.com/servicegateway-mynaukri/ads-management-services/v0/banners/sprite" style="width: 100%;height: 100%;"></div>
+                
+                </div>
+                    <div class="middle_content_centre">
+                        <div id="job_category_div">
+                        <h2 id="job_heading">Best Places to Work</h2>
+                       <div class="job_type">
+                           <div class="job_type_link" id="all_job" >All Sector</div>
+                           <div class="job_type_link" id="IT_job"  >Information Technology</div>
+                            <div class="job_type_link"  id="man_job"  >Manufacturing</div>
+                            <div class="job_type_link"  id="service_job" >Services</div>
+                        
+                            </div>
+                            <div id="content_div"  style="width: 690px;height: 600px;"></div>
+                            </div>
+
+
+                           <div id="job_gallery_div1">
+                            <h2 id="job_heading1">Job Gallery</h2>
+                           <div class="job_type">
+                               <div class="job_type_link" id="all_job1" >All Sector</div>
+                               <div class="job_type_link" id="IT_job1"  >Information Technology</div>
+                                <div class="job_type_link"  id="man_job1"  >Manufacturing</div>
+                                <div class="job_type_link"  id="service_job1" >Services</div>
+                            
+                                </div>
+                                <div id="content_gallery_div" style="width: 690px;height: 500px;"></div>
+                                </div>
+                            </div>
+                           
+                </div>
+               
+                          
+            </div>
+            <div class="right_content_div">
+                <div class="small_right_content_div" id="small1" >
+                    <div id="dwnlod_link_div">
+                    <div id="dwnlod_link_div_content">
+                        <h5>Search Jobs on the Go !!</h5>
+                        <p class="para" style="margin-top: -10px;">Download the Naukri app for free & browse from a variety of jobs based on your preferences</p>
+                    </div>
+                    <div id="dwnlod_link_div_img"><img src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/download-app-link-wdgt/v1/assets/appInstallImg.9d15407f.png" style="width: 80px;height: 100px; margin-top: 20px;"></div>
+                </div>
+                <div id="dwn_link_input_div">
+                    <input id="dwn_link_input" type="number" placeholder="+91-Enter mobile number">
+                    <button id="dwn_link_btn">send me download link</button>
+                </div>
+                </div>
+                
+                    <div class="small_right_content_div" id="small2" >
+                        <div id="job_alert_div">
+                            <h5>Get best matched jobs directly in your mail.</h5>
+                            <p class="para" style="margin-top: -10px;">Tell us what kind of a job you are looking out for and stay updated with latest opportunities.</p>
+                            
+                        </div>
+                        <button id="job_alert_div_btn">Create job alert</button>
+                </div>
+                <div class="small_right_content_div" id="small3">
+                    <div id="about_naukri">
+                        <div id="about_naukri_content">
+                        <h5>Naukri JobSpeak</h5>
+                        <p class="para" style="margin-top: -10px;">A monthly Job Index that provides insight into hiring trends in your city, job function and industry.</p>
+                        </div>
+                        <div id="about_naukri_img"><img src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/naukri-job-speak-wdgt/v1/njs-bg.74cb2db9.png" style="width: 70px;height:70px;margin-top: 30px;"></div>
+                    </div>
+                    <a href="#" id="about_naukri_div_btn">View the latest edition</a>
+                </div>
+                <div class="small_right_content_div" id="small4">
+                    <div id="naukri_resume_div">
+                        <div id="naukri_resume_div_img">
+                    <img src="https://static.naukimg.com/s/7/0/assets/images/src/widgets/fast-forward-wdgt/v1/ffLogo.799817e8.png" style="width: 70%;height: 80%;padding-top: 10px;">
+                        </div>
+                        <div class="naukri_resume_div_score">
+                    <h5>Naukri Resume Score - Free</h5>
+                    <p class="para" style="margin-top: -10px;">Get your FREE resume feedback report and know the improvement areas in your resume within 30 seconds</p>
+                    <a href="#">Read More</a>
+                </div>
+                <div class="naukri_resume_div_score">
+                    <h5>Naukri Resume Score - Free</h5>
+                    <p class="para" style="margin-top: -10px;">Get your FREE resume feedback report and know the improvement areas in your resume within 30 seconds</p>
+                    <a href="#">Read More</a>
+                </div>
+                    <hr>
+                    <div id="naukri_resume_div_tollfree">
+                    <p class="para">Call 1800-572-5557 now! (Toll-Free) for JobSeeker services</p>
+                    <button id="naukri_resume_div_btn">Know More</button>
+                    </div>
+                </div>
+            </div>
+                <div class="small_right_content_div">
+                    <div id="job_designation" class="job_details" >
+                        <h5>Premium Designations</h5>
+                        <div id="job_designation_link" class="job_details_links">
+                        <a href="#">CEO Jobs </a><br>
+                        <a href="#"> CMO Jobs</a><br>
+                        <a href="#"> CFO Jobs</a><br>
+                        <a href="#"> COO Jobs</a><br>
+                        <a href="#"> CTO Jobs</a><br>
+                        <a href="#"> Director Finance Jobs</a><br>
+                        <a href="#">VP HR Jobs</a><br>
+                        <a href="#"> VP Engineering Jobs</a><br>
+                        <a href="#"> VP Marketing Jobs</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="small_right_content_div">
+                    <div id="job_skill" class="job_details" >
+                        <h5>Top Skill</h5>
+                        <div id="job_skill_link" class="job_details_links">
+                        <a href="#">Mechanical Engineering Jobs </a><br>
+                        <a href="#"> BPO Jobs</a><br>
+                        <a href="#"> Networking Jobs</a><br>
+                        <a href="#"> Java Jobs</a><br>
+                        <a href="#">  Online Marketing Jobs</a><br>
+                        <a href="#"> Director Finance Jobs</a><br>
+                        <a href="#">Animation Jobs</a><br>
+                        <a href="#">  Design Engineer Jobs</a><br>
+                        <a href="#"> Analytics Jobs</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="small_right_content_div">
+                    <div id="job_catg" class="job_details">
+                        <h5>Jobs by Category</h5>
+                        <div id="job_catg_link" class="job_details_links">
+                        <a href="#">Graphic Designer Job </a><br>
+                        <a href="#">  Engineering Jobs</a><br>
+                        <a href="#"> Mainframe Jobs</a><br>
+                        <a href="#"> Legal Jobs</a><br>
+                        <a href="#">   IT Jobs</a><br>
+                        <a href="#">  R&D Jobs</a><br>
+                        <a href="#">  PSU Jobs</a><br>
+                        <a href="#">  Oil and Gas Jobs</a><br>
+                        <a href="#">  Pharma Jobs</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="small_right_content_div">
+                    <div id="job_loc" class="job_details">
+                        <h5>Jobs by Location</h5>
+                        <div id="job_loc_link" class="job_details_links">
+                        <a href="#">Jobs in Delhi </a><br>
+                        <a href="#">  Jobs in Mumbai</a><br>
+                        <a href="#"> Jobs in Chennai</a><br>
+                        <a href="#"> Jobs in Gurgaon</a><br>
+                        <a href="#">  Jobs in Noida</a><br>
+                        <a href="#">   Jobs in Kolkata</a><br>
+                        <a href="#">  Jobs in Hyderabad</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="drop_down" id="drown_drop1" style="width: 690px;height: 400px;">
+                <div class="content_in_beg" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                    <ul >
+                      <h4>Information Technology</h4>
+                      <p>Product Software </p>
+                      <li ><a href="#">Synamedia India Pvt Ltd.</a></li>
+                     
+                      
+                      <p> Software Services </p>
+                      <li><a href="#">Judge India Solutions </a></li>
+                     
+                      <p>  Finance/Insurance</p>
+                      <li><a href="#"> Bajaj Capital Ltd.</a></li>
+                      <li><a href="#"> Empower Retirement </a></li>
+                      <li><a href="#"> Franklin Templeton Investments</a></li>
+                     
+                    </ul>
+                   </div>
+              
+                <div class="content_in_mid" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                    <ul >
+                    <h4>Services</h4>
+                    <p>Finance/Insurance </p>                                                                            
+                    <li><a href="#">Sun Life India Service Centre Pvt Ltd.</a></li>
+                   
+                    <p>Search Firms</p>
+                    <li><a href="#">Ivitesse Mancer  </a></li>
+                    <li><a href="#">Consulting Services </a></li>
+                    <li><a href="#">Mastermind Network </a></li>
+                    <li><a href="#">Pyramid IT Consulting Pvt Ltd.</a></li>
+                    <li><a href="#"> Shell Infotech  </a></li>
+                    <li><a href="#">Unison International </a></li>
+                </ul>
+                </div>
+                
+                <div class="content_in_last" style="width: 150px;float: left;margin-left: 20px;text-align: left;"><ul >
+                    <h4>Manufacturing</h4>
+                    <p>Diversified/Retail</p>
+                    <li><a href="#">Lenskart Solutions Pvt Ltd.</a></li>
+                    <li><a href="#">Sakthi Management Services</a></li>
+                    <li><a href="#">Suguna Foods Pvt Ltd.  </a></li>
+                    <li><a href="#">Watertec India Pvt Ltd.</a></li>
+                   
+                    <p> Durable/Fmcg/Electr.</p>
+                    <li><a href="#">Haier Appliances Pvt. Ltd.</a></li>
+                    <li><a href="#"> Luminous Power Technologies</a></li>
+                
+                    <p> EPC/Engg./Infra./Mining</p>
+                    <li><a href="#">KSB Pumps</a></li>
+                   
+                    
+                 
+                    
+                  </ul>
+            </div>
+        </div>
+
+        <div class="drop_down" id="drown_drop2" style="width: 690px;height: 400px;">
+            <div class="content_in_beg" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                <ul >
+                  <h4>Information Technology</h4>
+                  <p>Product Software </p>
+                  <li><a href="#">Synamedia India Pvt Ltd.</a></li>
+                 
+                  
+                  <p> Software Services </p>
+                  <li><a href="#">Judge India Solutions </a></li>
+                 
+                  <p>  Finance/Insurance</p>
+                  <li><a href="#"> Bajaj Capital Ltd.</a></li>
+                  <li><a href="#"> Empower Retirement </a></li>
+                  <li><a href="#"> Franklin Templeton Investments</a></li>
+                 
+                </ul>
+               </div>
+    </div>
+
+
+    <div class="drop_down" id="drown_drop3" style="width: 690px;height: 400px;">
+        <div class="content_in_beg" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+            <ul >
+              <h4>Manufacturing</h4>
+              <p>Product Software </p>
+              <li><a href="#">Synamedia India Pvt Ltd.</a></li>
+             
+              
+              <p> Software Services </p>
+              <li><a href="#">Judge India Solutions </a></li>
+             
+              <p>  Finance/Insurance</p>
+              <li><a href="#"> Bajaj Capital Ltd.</a></li>
+              <li><a href="#"> Empower Retirement </a></li>
+              <li><a href="#"> Franklin Templeton Investments</a></li>
+             
+            </ul>
+           </div>
+      
+        <div class="content_in_mid" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+            <ul >
+            <p>Finance/Insurance </p>                                                                            
+            <li><a href="#">Sun Life India Service Centre Pvt Ltd.</a></li>
+           
+            <p>Search Firms</p>
+            <li><a href="#">Ivitesse Mancer  </a></li>
+            <li><a href="#">Consulting Services </a></li>
+            <li><a href="#">Mastermind Network </a></li>
+            <li><a href="#">Pyramid IT Consulting Pvt Ltd.</a></li>
+            <li><a href="#"> Shell Infotech  </a></li>
+            <li><a href="#">Unison International </a></li>
+        </ul>
+        </div>
+        
+        <div class="content_in_last" style="width: 150px;float: left;margin-left: 20px;text-align: left;"><ul >
+            <p>Diversified/Retail</p>
+            <li><a href="#">Lenskart Solutions Pvt Ltd.</a></li>
+            <li><a href="#">Sakthi Management Services</a></li>
+            <li><a href="#">Suguna Foods Pvt Ltd.  </a></li>
+            <li><a href="#">Watertec India Pvt Ltd.</a></li>
+           
+            <p> Durable/Fmcg/Electr.</p>
+            <li><a href="#">Haier Appliances Pvt. Ltd.</a></li>
+            <li><a href="#"> Luminous Power Technologies</a></li>
+        
+          </ul>
+    </div>
+</div>
+
+
+
+<div class="drop_down" id="drown_drop4" style="width: 690px;height: 400px;">
+    <div class="content_in_beg" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+        <ul >
+          <h4>Services</h4>
+          <p>Product Software </p>
+          <li><a href="#">Synamedia India Pvt Ltd.</a></li>
+         
+          
+          <p> Software Services </p>
+          <li><a href="#">Judge India Solutions </a></li>
+         
+          <p>  Finance/Insurance</p>
+          <li><a href="#"> Bajaj Capital Ltd.</a></li>
+          <li><a href="#"> Empower Retirement </a></li>
+          <li><a href="#"> Franklin Templeton Investments</a></li>
+         
+        </ul>
+       </div>
+  
+    <div class="content_in_mid" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+        <ul >
+        <p>Finance/Insurance </p>                                                                            
+        <li><a href="#">Sun Life India Service Centre Pvt Ltd.</a></li>
+       
+        <p>Search Firms</p>
+        <li><a href="#">Ivitesse Mancer  </a></li>
+        <li><a href="#">Consulting Services </a></li>
+        <li><a href="#">Mastermind Network </a></li>
+        <li><a href="#">Pyramid IT Consulting Pvt Ltd.</a></li>
+        <li><a href="#"> Shell Infotech  </a></li>
+        <li><a href="#">Unison International </a></li>
+    </ul>
+    </div>
+    
+    <div class="content_in_last" style="width: 150px;float: left;margin-left: 20px;text-align: left;"><ul >
+      
+        <p>Diversified/Retail</p>
+        <li><a href="#">Lenskart Solutions Pvt Ltd.</a></li>
+        <li><a href="#">Sakthi Management Services</a></li>
+        <li><a href="#">Suguna Foods Pvt Ltd.  </a></li>
+        <li><a href="#">Watertec India Pvt Ltd.</a></li>
+       
+        <p> Durable/Fmcg/Electr.</p>
+        <li><a href="#">Haier Appliances Pvt. Ltd.</a></li>
+        <li><a href="#"> Luminous Power Technologies</a></li>
+    
+        
+        
+        
+      </ul>
+</div>
+</div>
+
+
+
+                        <div class="drop_down" id="drop_down1" style="width: 690px;height: 400px;">
+                            <div class="content_in_beg" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                                <ul >
+                                  <h4>Services</h4>
+                                  <p>Banking</p>
+                                  <li><a href="#">AXIS Bank Ltd.</a></li>
+                                  <li><a href="#"> Sopra Banking Softwares</a></li>
+                                  <li><a href="#">Nokia Solutions and Networks </a></li>
+                                  <li><a href="#">Vodafone India Services</a></li>
+                                  
+                                  <p>  Technology Digital Media Services</p>
+                                  <li><a href="#">Echobooom Management </a></li>
+                                  <li><a href="#">Entrepreneurial Solutions</a></li>
+                                  
+                                  <p>  Finance/Insurance</p>
+                                  <li><a href="#"> Bajaj Capital Ltd.</a></li>
+                                 
+                                 
+                                </ul>
+                               </div>
+                          
+                            <div class="content_in_mid" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                                <ul >
+                                <h4>Information Technology</h4>
+                                <p>Analytics</p>                                                                            
+                                <li><a href="#">Course5 Intelligence Pvt Ltd.</a></li>
+                                <li><a href="#">LatentView Analytics Pvt Ltd.</a></li>
+                                <li><a href="#">RMS Risk Management Solutions </a></li>
+                                <li><a href="#">India Pvt Ltd</a></li>
+                               
+                                <p>Software Services</p>
+                                <li><a href="#">Accenture</a></li>
+                                <li><a href="#">AKAMAI TECHNOLOGIES INDIA </a></li>
+                                <li><a href="#">PRIVATE LIMITED </a></li>
+                                <li><a href="#">Aspire Systems</a></li>
+                            </ul>
+                            </div>
+                            
+                            <div class="content_in_last" style="width: 150px;float: left;margin-left: 20px;text-align: left;"><ul >
+                                <h4>Manufacturing</h4>
+                                <p>Telecom/ Interne</p>
+                                <li><a href="#">Atria Convergence </a></li>
+                                <li><a href="#">ExcelaCom Technologies</a></li>
+                                <li><a href="#">Nokia Solutions  </a></li>
+                                <li><a href="#">Vodafone India</a></li>
+                               
+                                <p> Durable/Fmcg/Electr.</p>
+                                <li><a href="#">DFM Foods Ltd.</a></li>
+                                <li><a href="#"> Varun Beverages</a></li>
+                            
+                                <p> EPC/Engg./Infra./Mining</p>
+                                <li><a href="#"> AECOM India Apco</a></li>
+
+                              </ul>
+                        </div>
+                    </div>
+                
+
+                           
+                           <div class="drop_down" id="drop_down2" style="width: 690px;height: 400px;">
+                            <div class="content_in_beg" style="width: 150px; text-align: left;">
+                            <ul >
+                                <h4>Services</h4>
+                                <p>Banking</p>
+                                <li><a href="#">AXIS Bank Ltd.</a></li>
+                                <li><a href="#"> Sopra Banking Softwares</a></li>
+                                <li><a href="#">Nokia Solutions and Networks </a></li>
+                                <li><a href="#">Vodafone India Services</a></li>
+                                
+                                <p>  Technology Digital Media Services</p>
+                                <li><a href="#">Echobooom Management </a></li>
+                                <li><a href="#">Entrepreneurial Solutions</a></li>
+                                
+                                <p>  Finance/Insurance</p>
+                                <li><a href="#"> Bajaj Capital Ltd.</a></li>
+                                <li><a href="#"> Empower Retirement </a></li>
+                                <li><a href="#"> Franklin Templeton Investments</a></li>
+                                <li><a href="#">  Fullerton India </a></li>
+                                <li><a href="#">   Future Generali India Life Insurance</a></li>
+                               
+                               <p>  Infrastructure</p>
+                                <li><a href="#">Infra.Market</a></li>
+                                <li><a href="#">  L.N. Malviya Infra Projects</a></li>
+                              </ul>
+                             </div>
+                        
+                          <div class="content_in_mid" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                              <ul >
+                              <h4>Information Technology</h4>
+                              <p>Analytics</p>                                                                            
+                              <li><a href="#">Course5 Intelligence Pvt Ltd.</a></li>
+                              <li><a href="#">LatentView Analytics Pvt Ltd.</a></li>
+                              <li><a href="#">RMS Risk Management Solutions </a></li>
+                              <li><a href="#">India Pvt Ltd</a></li>
+                              <p>ChipDsg/Semicond.</p>
+                              <li><a href="#">Globalfoundries Engineering Pvt Ltd.</a></li>
+                              <li><a href="#">KLA-Tencor Software India Pvt Ltd</a></li>
+                              <li><a href="#">Maxim Integrated</a></li>
+                              <li><a href="#">Sasken Technologies Ltd.</a></li>
+                              <p>Healthcare/Pharma</p>
+                              <li><a href="#">Athena Health</a></li>
+                              <li><a href="#">Cotiviti India Pvt Ltd. </a></li>
+                              <li><a href="#">Emis Health India Pvt Ltd. </a></li>
+                              <li><a href="#">Evolent Health International Pvt Ltd.</a></li>
+                              <p>Software Services</p>
+                              <li><a href="#">Accenture</a></li>
+                              <li><a href="#">AKAMAI TECHNOLOGIES INDIA </a></li>
+                              <li><a href="#">PRIVATE LIMITED </a></li>
+                              <li><a href="#">Aspire Systems</a></li>
+                          </ul>
+                          </div>
+                          
+                          <div class="content_in_last" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                            <ul >
+                              <h4>Manufacturing</h4>
+                              <p>Telecom/ Interne</p>
+                              <li><a href="#">Atria Convergence </a></li>
+                              <li><a href="#">ExcelaCom Technologies</a></li>
+                              <li><a href="#">Nokia Solutions  </a></li>
+                              <li><a href="#">Vodafone India</a></li>
+                             
+                              <p> Durable/Fmcg/Electr.</p>
+                              <li><a href="#">DFM Foods Ltd.</a></li>
+                              <li><a href="#"> Varun Beverages</a></li>
+                          
+                              <p> EPC/Engg./Infra./Mining</p>
+                              <li><a href="#"> AECOM India Apco</a></li>
+                              <li><a href="#"> HCC Group JSW Group </a></li>
+                              <li><a href="#"> Welspun Enterprise Wilo</a></li>
+                              
+                             <p>  Diversified/Retail</p>
+                              <li><a href="#"> Aditya Birla Fashion</a></li>
+                              <li><a href="#">  Murugappa Group</a></li>
+                            </ul>
+                         </div>
+                        </div>
+                    
+                        <div class="drop_down" id="drop_down3" style="width: 690px;height: 400px;">
+                            <div class="content_in_beg" style="width: 150px; text-align: left;">
+                                <ul >
+                                    <h4>Services</h4>
+                                    <p>Banking</p>
+                                    <li><a href="#">AXIS Bank Ltd.</a></li>
+                                    <li><a href="#"> Sopra Banking Softwares</a></li>
+                                    <li><a href="#">Nokia Solutions and Networks </a></li>
+                                    <li><a href="#">Vodafone India Services</a></li>
+                                    
+                                    <p>  Technology Digital Media Services</p>
+                                    <li><a href="#">Echobooom Management </a></li>
+                                    <li><a href="#">Entrepreneurial Solutions</a></li>
+                                    
+                                    <p>  Finance/Insurance</p>
+                                    <li><a href="#"> Bajaj Capital Ltd.</a></li>
+                                    <li><a href="#"> Empower Retirement </a></li>
+                                    <li><a href="#"> Franklin Templeton Investments</a></li>
+                                    <li><a href="#">  Fullerton India </a></li>
+                                    <li><a href="#">   Future Generali India Life Insurance</a></li>
+                                   
+                                   <p>  Infrastructure</p>
+                                    <li><a href="#">Infra.Market</a></li>
+                                    <li><a href="#">  L.N. Malviya Infra Projects</a></li>
+                                  </ul>
+                                 </div>
+                            
+                              <div class="content_in_mid" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                                  <ul >
+                                  <h4>Information Technology</h4>
+                                  <p>Analytics</p>                                                                            
+                                  <li><a href="#">Course5 Intelligence Pvt Ltd.</a></li>
+                                  <li><a href="#">LatentView Analytics Pvt Ltd.</a></li>
+                                  <li><a href="#">RMS Risk Management Solutions </a></li>
+                                  <li><a href="#">India Pvt Ltd</a></li>
+                                  <p>ChipDsg/Semicond.</p>
+                                  <li><a href="#">Globalfoundries Engineering Pvt Ltd.</a></li>
+                                  <li><a href="#">KLA-Tencor Software India Pvt Ltd</a></li>
+                                  <li><a href="#">Maxim Integrated</a></li>
+                                  <li><a href="#">Sasken Technologies Ltd.</a></li>
+                                  <p>Healthcare/Pharma</p>
+                                  <li><a href="#">Athena Health</a></li>
+                                  <li><a href="#">Cotiviti India Pvt Ltd. </a></li>
+                                  <li><a href="#">Emis Health India Pvt Ltd. </a></li>
+                                  <li><a href="#">Evolent Health International Pvt Ltd.</a></li>
+                                  <p>Software Services</p>
+                                  <li><a href="#">Accenture</a></li>
+                                  <li><a href="#">AKAMAI TECHNOLOGIES INDIA </a></li>
+                                  <li><a href="#">PRIVATE LIMITED </a></li>
+                                  <li><a href="#">Aspire Systems</a></li>
+                              </ul>
+                              </div>
+                              
+                              <div class="content_in_last" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                                <ul >
+                                  <h4>Manufacturing</h4>
+                                  <p>Telecom/ Interne</p>
+                                  <li><a href="#">Atria Convergence </a></li>
+                                  <li><a href="#">ExcelaCom Technologies</a></li>
+                                  <li><a href="#">Nokia Solutions  </a></li>
+                                  <li><a href="#">Vodafone India</a></li>
+                                 
+                                  <p> Durable/Fmcg/Electr.</p>
+                                  <li><a href="#">DFM Foods Ltd.</a></li>
+                                  <li><a href="#"> Varun Beverages</a></li>
+                              
+                                  <p> EPC/Engg./Infra./Mining</p>
+                                  <li><a href="#"> AECOM India Apco</a></li>
+                                  <li><a href="#"> HCC Group JSW Group </a></li>
+                                  <li><a href="#"> Welspun Enterprise Wilo</a></li>
+                                  
+                                 <p>  Diversified/Retail</p>
+                                  <li><a href="#"> Aditya Birla Fashion</a></li>
+                                  <li><a href="#">  Murugappa Group</a></li>
+                                </ul>
+                              </div>   
+                        </div>
+
+
+
+
+                        <div class="drop_down" id="drop_down4" style="width: 690px;height: 400px;">
+                            <div class="content_in_beg" style="width: 150px; text-align: left;">
+                                <ul >
+                                    <h4>Services</h4>
+                                    <p>Banking</p>
+                                    <li><a href="#">AXIS Bank Ltd.</a></li>
+                                    <li><a href="#"> Sopra Banking Softwares</a></li>
+                                    <li><a href="#">Nokia Solutions and Networks </a></li>
+                                    <li><a href="#">Vodafone India Services</a></li>
+                                    
+                                    <p>  Technology Digital Media Services</p>
+                                    <li><a href="#">Echobooom Management </a></li>
+                                    <li><a href="#">Entrepreneurial Solutions</a></li>
+                                    
+                                    <p>  Finance/Insurance</p>
+                                    <li><a href="#"> Bajaj Capital Ltd.</a></li>
+                                    <li><a href="#"> Empower Retirement </a></li>
+                                    <li><a href="#"> Franklin Templeton Investments</a></li>
+                                    <li><a href="#">  Fullerton India </a></li>
+                                    <li><a href="#">   Future Generali India Life Insurance</a></li>
+                                   
+                                   <p>  Infrastructure</p>
+                                    <li><a href="#">Infra.Market</a></li>
+                                    <li><a href="#">  L.N. Malviya Infra Projects</a></li>
+                                  </ul>
+                                 </div>
+                            
+                              <div class="content_in_mid" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                                  <ul >
+                                  <h4>Information Technology</h4>
+                                  <p>Analytics</p>                                                                            
+                                  <li><a href="#">Course5 Intelligence Pvt Ltd.</a></li>
+                                  <li><a href="#">LatentView Analytics Pvt Ltd.</a></li>
+                                  <li><a href="#">RMS Risk Management Solutions </a></li>
+                                  <li><a href="#">India Pvt Ltd</a></li>
+                                  <p>ChipDsg/Semicond.</p>
+                                  <li><a href="#">Globalfoundries Engineering Pvt Ltd.</a></li>
+                                  <li><a href="#">KLA-Tencor Software India Pvt Ltd</a></li>
+                                  <li><a href="#">Maxim Integrated</a></li>
+                                  <li><a href="#">Sasken Technologies Ltd.</a></li>
+                                 
+                                  <p>Software Services</p>
+                                  <li><a href="#">Accenture</a></li>
+                                  <li><a href="#">AKAMAI TECHNOLOGIES INDIA </a></li>
+                                  <li><a href="#">PRIVATE LIMITED </a></li>
+                                  <li><a href="#">Aspire Systems</a></li>
+                              </ul>
+                              </div>
+                              
+                              <div class="content_in_last" style="width: 150px;float: left;margin-left: 20px;text-align: left;">
+                                <ul >
+                                  <h4>Manufacturing</h4>
+                                  <p>Telecom/ Interne</p>
+                                  <li><a href="#">Atria Convergence </a></li>
+                                  <li><a href="#">ExcelaCom Technologies</a></li>
+                                  <li><a href="#">Nokia Solutions  </a></li>
+                                  <li><a href="#">Vodafone India</a></li>
+                                 
+                                  <p> Durable/Fmcg/Electr.</p>
+                                  <li><a href="#">DFM Foods Ltd.</a></li>
+                                  <li><a href="#"> Varun Beverages</a></li>
+                              
+                                 
+                                  
+                                 <p>  Diversified/Retail</p>
+                                  <li><a href="#"> Aditya Birla Fashion</a></li>
+                                  <li><a href="#">  Murugappa Group</a></li>
+                                </ul>
+                              </div> 
+                              </div> 
+
+                             
+                    
+    
+                    <!--/div>
+                </div-->
+            
+            </body>
+            <script src="jsfile/index.js" type="text/javascript"></script>
+            </html>
+           
