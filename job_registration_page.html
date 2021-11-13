@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="styles/job_regis.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="reg_container">
+        <div id="banner_div">
+            <img src="https://genpact.avature.net/portal/t6/images/banner--main.jpg">
+        </div>
+        <div id="content_div">
+            <div id="heading"> <h3 style="text-align: center;">Welcome to our Talent Community</h3></div>
+            <div class="para_div">
+                <p style="color: #828282;font-size: 20px;font-weight: 400;text-align: left;">Please enter all the relevant information in the fields below.</p>
+            </div>
+            <div class="para_div">
+                <h4>Were you an ex-employee of Genpact?</h4>
+                <input type="radio" name="gender" value="male">No<br><br>
+                 <input type="radio" name="gender" value="female">Yes<br><br>
+                 </div>
+
+                 <div class="form_input_field">
+                 <div class="name">
+                 <label>First Name</label><br>
+                 <input class="input_field" type="text" required>
+                </div>
+                <div class="name">
+                 <label>Last Name</label><br>
+                 <input class="input_field" type="text" required>
+                </div>
+                <div class="name">
+                 <label>Place Of Residency:Country</label><br>
+                 <form name="index">
+                 <select name="in" onchange="myFunction()" class="input_field" >
+                    <option value="" disabled selected hidden>Select a Country</option>
+                    <option value="Australia">Australia</option>
+                    <option value="America">America</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="Friday">India</option>
+                    <option value="China">China</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Friday">Japan</option>
+                    </select>
+                    </form>
+                </div>
+                <div class="name">
+                    <label  >State</label><br>
+                    <select id="state" class="input_field" name="out" required>
+                        <option value="" disabled selected hidden>Select an Option</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Goa" >Goa</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Jammu">Jammu</option>
+                        <option value="Rajsthan">Rajasthan</option>
+                        <option value="Punjab">Punjab</option>
+                        <option value="Haryana">Haryana</option>
+                        <option value="Bihar">Bihar</option>
+                        <option value="UttarPradesh">UttarPradesh</option>
+                        </select>
+                    </div>
+                    <div class="name">
+                        <label>City/Town</label><br>
+                        <input class="input_field" type="text"required>
+                    </div>
+                    <div class="name">
+                       <label>Primary Email Address</label><br>
+                        <input class="input_field" type="email" required >
+                    </div>
+                    <div class="name">
+                        <label>Contact Number</label><br>
+                        <input class="input_field" type="number" required>
+                    </div>
+            </div>
+            <h4>skills</h4>
+            <div class="form_input_field">
+               
+                <div class="name">
+                <label>skill1</label><br>
+                <select class="input_field" name="skill1" required>
+                    <option value="" disabled selected hidden>Select an Option</option>
+                    <option value="Account Payable">Account Payable</option>
+                    <option value="ADM/JAVA SERVELETS" >ADM/JAVA SERVELETS</option>
+                    <option value="ADM/JAVA JSP">ADM/JAVA JSP</option>
+                    <option value="ADM/JAVA SPRING">ADM/JAVA SPRING</option>
+                    <option value="Agile">Agile</option>
+                    <option value="BlockChain">BlockChain</option>
+                    <option value="BPM">BPM</option>
+                    </select>
+                        </div>
+                        <div class="name">
+                        <label>skill1 Proficiency</label><br>
+                        <select class="input_field" name="bad_day" required>
+                            <option value="" disabled selected hidden>Select an Option</option>
+                            <option value="Begginer">Begginer</option>
+                            <option value="Expert" >Expert</option>
+                            <option value="Intermidiate">Intermidiate</option>
+                            <option value="Proficience">Proficience</option>
+                           
+                            </select>
+                        </div>
+                        <div class="name">
+                        <label>skill2</label><br>
+                        <select class="input_field" name="bad_day" >
+                            <option value="" disabled selected hidden>Select an Option</option>
+                    <option value="Account Payable">Account Payable</option>
+                    <option value="ADM/JAVA SERVELETS" >ADM/JAVA SERVELETS</option>
+                    <option value="ADM/JAVA JSP">ADM/JAVA JSP</option>
+                    <option value="ADM/JAVA SPRING">ADM/JAVA SPRING</option>
+                    <option value="Agile">Agile</option>
+                    <option value="BlockChain">BlockChain</option>
+                    <option value="BPM">BPM</option>
+                            </select>
+                        </div>
+                        <div class="name">
+                        <label>skill2 Proficiency</label><br>
+                        <select class="input_field" name="bad_day">
+                            <option value="" disabled selected hidden>Select an Option</option>
+                            <option value="Begginer">Begginer</option>
+                            <option value="Expert" >Expert</option>
+                            <option value="Intermidiate">Intermidiate</option>
+                            <option value="Proficience">Proficience</option>
+                            </select>
+                        </div>
+                        <div class="name">
+                        <label>skill3</label><br>
+                        <select class="input_field" name="bad_day">
+                            <option value="" disabled selected hidden>Select an Option</option>
+                            <option value="Account Payable">Account Payable</option>
+                            <option value="ADM/JAVA SERVELETS" >ADM/JAVA SERVELETS</option>
+                            <option value="ADM/JAVA JSP">ADM/JAVA JSP</option>
+                            <option value="ADM/JAVA SPRING">ADM/JAVA SPRING</option>
+                            <option value="Agile">Agile</option>
+                            <option value="BlockChain">BlockChain</option>
+                            <option value="BPM">BPM</option>
+                            </select>
+                        </div>
+                        <div class="name">
+                        <label>skill3 Proficiency</label><br>
+                        <select class="input_field" name="bad_day" >
+                            <option value="" disabled selected hidden>Select an Option</option>
+                            <option value="Begginer">Begginer</option>
+                            <option value="Expert" >Expert</option>
+                            <option value="Intermidiate">Intermidiate</option>
+                            <option value="Proficience">Proficience</option>
+                            </select>
+                        </div>
+            </div>
+            <h4>Languages</h4>
+           <div class="form_input_field">
+               <div class="name">
+               <label>Language1</label><br>
+            <select class="input_field" name="bad_day" required>
+                <option value="" disabled selected hidden></option>
+                <option value="Sunday">English</option>
+                <option value="Monday" >Hindi</option>
+                <option value="Tuesday">French</option>
+                <option value="Wednesday">Dutch</option>
+                <option value="Thursday">Chinese</option>
+                <option value="Friday">Spanish</option>
+                </select>
+                </div>
+                
+                    <div class="name">
+                <label>language1 Proficiency</label><br>
+                <select class="input_field" name="bad_day" required>
+                    <option value="" disabled selected hidden>Select an Option</option>
+                    <option value="Sunday">Begginer</option>
+                    <option value="Monday" >Advanced</option>
+                    <option value="Tuesday">Elementary</option>
+                    <option value="Wednesday">Intermediate</option>
+                    <option value="Thursday">Proficience</option>
+                   
+                    </select>
+                    </div>
+                    <div class="name">
+                        <label>language2</label><br>
+                    <select class="input_field" name="bad_day" >
+                        <option value="" disabled selected hidden></option>
+                <option value="Sunday">English</option>
+                <option value="Monday" >Hindi</option>
+                <option value="Tuesday">French</option>
+                <option value="Wednesday">Dutch</option>
+                <option value="Thursday">Chinese</option>
+                <option value="Friday">Spanish</option>
+                        </select>
+           </div>
+
+           <div class="name">
+            <label>language2 Proficiency</label><br>
+        <select class="input_field" name="bad_day" >
+            <option value="" disabled selected hidden>Select an Option</option>
+                    <option value="Sunday">Begginer</option>
+                    <option value="Monday" >Advanced</option>
+                    <option value="Tuesday">Elementary</option>
+                    <option value="Wednesday">Intermediate</option>
+                    <option value="Thursday">Proficience</option>
+            </select>
+</div>
+
+           </div>
+        
+           <h4>Education</h4>
+           <div id="form_input_field1">
+               <div class="name1">
+                   <form name="index1">
+               <label>Educational Level</label>
+            <select onchange="myFunction1()" class="input_field1" name="edu" required>
+                <option value="" disabled selected hidden>Select an Option</option>
+                <option value="Sunday">Bachelor's Degree</option>
+                <option value="Monday" >Master's Degree</option>
+                <option value="Tuesday">Doctprate Degree</option>
+                <option value="Wednesday">MBA</option>
+                
+                </select>
+            </form>
+                </div>
+                <div class="name1" id="major_div" >
+                    <label>Major</label><br>
+                 <select class="input_field1"  required>
+                     <option value="" disabled selected hidden>Select an Option</option>
+                     <option value="Sunday">Accountancy&Banking</option>
+                     <option value="Monday" >Arts&Humanities</option>
+                     <option value="Tuesday">Economics</option>
+                     <option value="Wednesday">Engineering</option>
+                     <option value="Wednesday">Other</option>
+                     
+                     </select>
+                     </div>
+                     <div class="name1" id="university_div" >
+                        <label>University</label><br>
+                     <select class="input_field1"  required>
+                         <option value="" disabled selected hidden></option>
+                         <option value="Sunday">Abhinav Educational Foundation,Pune</option>
+                         <option value="Monday" >Abhinav Technical Institute</option>
+                         <option value="Tuesday">Acharya Nagarjuna Institute</option>
+                         <option value="Wednesday">Adam Smith Collage</option>
+                         <option value="Wednesday">Other</option>
+                         
+                         </select>
+                         </div>
+                <div class="name1">
+                <label>LinkedIn Profile</label>
+                <input class="input_field1" type="url"> 
+                </div>
+                <div class="name1">
+                <label>Upload Your Resume here</label>
+                    <form action="/action_page.php">
+                        <input class="input_field1" style="border: 1px solid black; padding-top: 3px;" type="file" id="files" name="files" multiple>
+                       
+                      </form>
+                      </div>
+    
+                </div>
+            </div>
+           </div>
+        </div>
+        <div class="footer_para">
+            <h4>Please read through and sign in to our data privacy policy</h4>
+            <p>By signing below you give your consent to Genpact to process (which includes in particular collecting, recording, storing, utilizing, sharing or transferring) any Personal Identifiable Information (defined as information associated with your name or personal identity including your date of birth, address/e-mail address, telephone number, unique government issued number, passport details, driving license number) and any Sensitive Personal Data or Information (namely, password, financial information such as bank account, physical,
+                 physiological and mental health condition, sexual orientation, medical records and history, biometric information) which may be in the possession of Genpact or obtained in future. Such information shall be processed by Genpact strictly on a need to know basis and retained till required for business purposes including statutory requirements pertaining to compensation and benefits.</p>
+       <p>For more details, pls visit: <a>http://www.genpact.com/about-us/GDPR</a></p>
+        <h4>By agreeing to give your consent to Opt In, you have been subscribed to receive regular updates from Genpact *</h4>       
+        <input type="radio">
+        <label>I Accept</label><br>
+        <button id="footer_btn" onclick="save_data()">SAVE</button>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="jsfile/job_regis.js">
+   
+    </script>
+</html>
+
+    
